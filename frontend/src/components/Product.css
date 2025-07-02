@@ -1,0 +1,10 @@
+.card {
+  border: 2px solid #100e0e;          /* Light gray border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 8px;              /* Optional: rounded corners */
+  transition: box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Slightly deeper on hover */
+}
